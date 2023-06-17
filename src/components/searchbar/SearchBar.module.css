@@ -1,0 +1,29 @@
+:root {
+    --color-text: chartreuse;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: var(--color-text);
+    font-family: cursive;
+    border-radius: 10px 0 0 10px;
+    border-color: var(--color-text);
+    outline: none;
+}
+
+button {
+    border-radius: 0 10px 10px 0;
+    border-color: var(--color-text);
+    color: var(--color-text);
+    background-color: black;
+}
+
+button:hover {
+    color: black;
+    background-color: var(--color-text);
+    cursor: pointer;
+}
